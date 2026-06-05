@@ -10,7 +10,7 @@
 
 <h1 id="english">🇬🇧 Agentic BI - HR Analytics (English)</h1>
 
-This repository showcases Agentic AI development in Power BI, specifically tailored for an **HR Analytics** use case.
+**Description:** This repository is an educational template demonstrating how to use Agentic AI (like GitHub Copilot Chat in Agent mode) to autonomously build a Power BI semantic model and custom HTML KPI cards for an HR Analytics scenario.
 
 ## 🔍 What is Agentic Development?
 
@@ -47,11 +47,16 @@ This repository comes with an HR Analytics example, tracking active employees, t
 > - The [kb-html-cards.md](.resources/kb-html-cards.md) file contains instructions for generating custom HTML KPI Cards.
 > - Best results are usually achieved using advanced models like `Claude 3.5 Sonnet` or `Gemini`.
 
+## 🤝 Credits & Mentions
+This project was inspired by and builds upon the excellent work of others in the Power BI community:
+- **[Rui Romano](https://github.com/RuiRomano)**: For the original [pbip-demo-agentic](https://github.com/RuiRomano/pbip-demo-agentic) repository which provided the foundational Agentic AI workflow for Power BI.
+- **YouTube Community**: For the insights on using AI (like Claude) to generate HTML Viewer DAX code for custom KPI cards (see [Claude Just Replaced My Power BI KPI Cards](https://www.youtube.com/watch?v=KV84OuB5q_4)).
+
 ---
 
 <h1 id="ελληνικά">🇬🇷 Agentic BI - HR Analytics (Ελληνικά)</h1>
 
-Αυτό το repository παρουσιάζει την ανάπτυξη Power BI μέσω Agentic AI (Τεχνητής Νοημοσύνης), ειδικά προσαρμοσμένο για μια περίπτωση χρήσης **HR Analytics (Διαχείριση Ανθρώπινου Δυναμικού)**.
+**Περιγραφή:** Αυτό το repository αποτελεί ένα εκπαιδευτικό πρότυπο που δείχνει πώς να χρησιμοποιήσετε την τεχνολογία Agentic AI (όπως το GitHub Copilot Chat σε Agent mode) για να δημιουργήσετε αυτόνομα ένα μοντέλο δεδομένων (semantic model) στο Power BI και προσαρμοσμένες κάρτες HTML KPI, εστιασμένο στον τομέα του Ανθρώπινου Δυναμικού (HR Analytics).
 
 ## 🔍 Τι είναι η Ανάπτυξη με Agentic AI;
 
@@ -87,3 +92,8 @@ This repository comes with an HR Analytics example, tracking active employees, t
 > - Το αρχείο [kb-pbip.md](.resources/kb-pbip.md) είναι μια βάση γνώσεων. Το AI το διαβάζει για να μάθει πώς ακριβώς να συντάσσει αρχεία PBIP και TMDL.
 > - Το αρχείο [kb-html-cards.md](.resources/kb-html-cards.md) περιέχει οδηγίες για τη δημιουργία πανέμορφων, προσαρμοσμένων **HTML KPI Cards** (όπως εξηγείται και σε σχετικά tutorials).
 > - Τα καλύτερα αποτελέσματα επιτυγχάνονται με προηγμένα AI μοντέλα (π.χ. `Claude 3.5 Sonnet` μέσω Copilot Pro ή `Gemini`).
+
+## 🤝 Αναφορές & Ευχαριστίες (Credits & Mentions)
+Αυτό το έργο δημιουργήθηκε για εκπαιδευτικούς σκοπούς, αντλώντας έμπνευση από την εξαιρετική δουλειά της κοινότητας του Power BI:
+- **[Rui Romano](https://github.com/RuiRomano)**: Για το αρχικό repository [pbip-demo-agentic](https://github.com/RuiRomano/pbip-demo-agentic) που παρείχε τη βασική αρχιτεκτονική του Agentic AI workflow για το Power BI.
+- **YouTube Community**: Για την καινοτόμα ιδέα χρήσης του AI για τη δημιουργία custom KPI καρτών μέσω του HTML Viewer με χρήση DAX (βλ. το βίντεο [Claude Just Replaced My Power BI KPI Cards](https://www.youtube.com/watch?v=KV84OuB5q_4)).
