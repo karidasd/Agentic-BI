@@ -1,0 +1,14 @@
+SchemaName,TableName,ColumnName,DataType,IsNullable
+dbo,DimEmployee,EmployeeKey,int,NO
+dbo,DimEmployee,FirstName,nvarchar,YES
+dbo,DimEmployee,LastName,nvarchar,YES
+dbo,DimEmployee,Title,nvarchar,YES
+dbo,DimEmployee,HireDate,date,YES
+dbo,DimEmployee,TerminationDate,date,YES
+dbo,DimEmployee,Status,nvarchar,YES
+dbo,DimEmployee,DepartmentName,nvarchar,YES
+dbo,FactEmployeePerformance,PerformanceKey,int,NO
+dbo,FactEmployeePerformance,EmployeeKey,int,YES
+dbo,FactEmployeePerformance,DateKey,int,YES
+dbo,FactEmployeePerformance,PerformanceScore,int,YES
+dbo,FactEmployeePerformance,TrainingHours,int,YES
