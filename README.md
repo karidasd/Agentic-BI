@@ -17,3 +17,20 @@ In Power BI, this is made possible by open file formats with [Power BI Project f
 # 🧪 Example Included
 
 This repository comes with an HR Analytics example, tracking active employees, turnover rate, and training hours based on an HR data warehouse schema. Check the `.requirements` folder for the details.
+
+# 🚀 Try it yourself
+
+1. Clone this Repo into your laptop
+2. Install [Visual Studio Code](https://code.visualstudio.com/)
+3. Install [GitHub Copilot extension](https://docs.github.com/en/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide?tool=vscode)
+4. Open Github Copilot Chat in [Agent mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
+5. Attach the [requirements-01.md](.requirements/requirements-01.md) and run the following prompt:
+
+    > Please review the attached requirements and draft a comprehensive development specification in Markdown format for my review.
+
+6. Review the generated development spec, then prompt Copilot to proceed with implementing the semantic model.
+
+> 💡 **Notes** 
+> - The [kb-pbip.md](.resources/kb-pbip.md) file includes important knowledge base that AI will use to better understand PBIP file structure and TMDL.
+> - The [kb-html-cards.md](.resources/kb-html-cards.md) file contains instructions for generating custom HTML KPI Cards.
+> - Best results are usually achieved using advanced models like `Claude 3.5 Sonnet` or `Gemini`.
